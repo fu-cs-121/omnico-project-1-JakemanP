@@ -1,7 +1,7 @@
 # Euphoria User Engagement Analysis Report
 
-**Author:** [Your Name]  
-**Date:** [Submission Date]
+**Author:** Jakeman Pendleton 
+**Date:** 02/25/2025
 
 ---
 

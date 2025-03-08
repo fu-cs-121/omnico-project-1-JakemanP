@@ -5,24 +5,27 @@
 # =============================================================================
 
 def main():
-    # Initialize the stats dictionary for each algorithm
-    stats = {
-        'JoyStream': {
-            'total_happiness': 0,
-            'total_duration': 0,
-            'session_count': 0
-        },
-        'SerenityFlow': {
-            'total_happiness': 0,
-            'total_duration': 0,
-            'session_count': 0
-        },
-        'DeepPulse': {
-            'total_happiness': 0,
-            'total_duration': 0,
-            'session_count': 0
-        }
-    }
+    # print("Euphoria User Engagement Analysis Report")
+    # print("----------------------------------------")
+    # print()
+    # # Initialize the stats dictionary for each algorithm
+    # stats = {
+    #     'JoyStream': {
+    #         'total_happiness': 0,
+    #         'total_duration': 0,
+    #         'session_count': 0
+    #     },
+    #     'SerenityFlow': {
+    #         'total_happiness': 0,
+    #         'total_duration': 0,
+    #         'session_count': 0
+    #     },
+    #     'DeepPulse': {
+    #         'total_happiness': 0,
+    #         'total_duration': 0,
+    #         'session_count': 0
+    #     }
+    # }
 
     # Open the CSV file and read data
     with open('euphoria_data.csv', 'r') as file:
@@ -47,13 +50,13 @@ def main():
             # happiness_rating = ?
 
             # Update stats based on the algorithm
-            if algorithm in stats:
-                stats[algorithm]['total_happiness'] += happiness_rating
-                stats[algorithm]['total_duration'] += session_duration
-                stats[algorithm]['session_count'] += 1
-            else:
-                # Handle any unexpected algorithm names
-                print(f"Unknown algorithm: {algorithm}")
+            # if algorithm in stats:
+            #     stats[algorithm]['total_happiness'] += happiness_rating
+            #     stats[algorithm]['total_duration'] += session_duration
+            #     stats[algorithm]['session_count'] += 1
+            # else:
+            #     # Handle any unexpected algorithm names
+            #     print(f"Unknown algorithm: {algorithm}")
 
     # TODO: Calculate averages for each algorithm
     # For each algorithm in the stats dictionary:
